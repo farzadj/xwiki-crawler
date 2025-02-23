@@ -1,5 +1,20 @@
-langchain
-faiss-cpu
-transformers
-huggingface_hub
-tqdm
+# LangChain framework for LLMs and vector stores
+langchain==0.1.7
+
+# FAISS for efficient vector search (CPU version)
+faiss-cpu==1.7.4
+
+# Hugging Face Transformers for text embeddings
+transformers==4.37.2
+
+# Hugging Face Hub for model downloads
+huggingface_hub==0.20.3
+
+# For managing progress bars during long-running tasks
+tqdm==4.66.1
+
+# Numpy for numerical operations (used by FAISS)
+numpy==1.26.4
+
+# Optional: If using GPU, replace faiss-cpu with faiss-gpu
+# faiss-gpu==1.7.2
