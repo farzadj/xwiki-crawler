@@ -23,10 +23,15 @@ A Python-based web crawler built with **Selenium** to automate the extraction of
 
 ---
 
-## 📦 Installation
+## ⚙️ Command Flow
+1. Login to XWiki: Handles standard and OTP-based authentication.
+2. Expand Sidebar: Dynamically expands the navigation tree.
+3. Sequential Crawling: Visits each page and extracts content.
+4. Content Extraction:
+   Page Titles
+   Section Headers & Body Text
+   Lists (ordered/unordered)
+   Tables with proper mapping
+   Images (filtered for irrelevant ones)
+5. Data Export: Saves all data in structured JSON.
 
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/xwiki-crawler.git
-   cd xwiki-crawler
