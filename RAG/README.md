@@ -23,3 +23,8 @@ Built with **LangChain**, **FAISS**, and **Hugging Face Embeddings** for scalabl
 - **FAISS** (Facebook AI Similarity Search)
 - **Hugging Face Transformers**
 - **XWiki Extracted Data (JSON format)**
+
+
+
+## Install Dependencies:
+pip install -r requirements.txt
