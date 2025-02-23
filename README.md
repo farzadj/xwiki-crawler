@@ -1,5 +1,3 @@
-# XFEL_LLM
-
 # 🕷️ XWiki Crawler using Selenium
 
 A Python-based web crawler built with **Selenium** to automate the extraction of structured data from **XWiki** pages. It handles login (including OTP), sidebar navigation, page content extraction (titles, text, lists, tables, images), and saves the structured data in a **JSON** format.
