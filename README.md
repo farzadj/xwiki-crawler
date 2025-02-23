@@ -35,3 +35,5 @@ A Python-based web crawler built with **Selenium** to automate the extraction of
 - **Images (filtered for irrelevant ones)**
 5. Data Export: Saves all data in structured JSON.
 
+## Install Dependencies:
+pip install -r requirements.txt
