@@ -1,0 +1,14 @@
+# Selenium for web automation
+selenium==4.17.2
+
+# WebDriver Manager (optional, auto-downloads geckodriver if preferred)
+webdriver-manager==4.0.1
+
+# For JSON handling and data manipulation
+simplejson==3.19.2
+
+# Time handling and system operations (built-in, but included for completeness)
+datetime
+
+# Progress Bar (optional, for tracking scraping progress)
+tqdm==4.66.1
