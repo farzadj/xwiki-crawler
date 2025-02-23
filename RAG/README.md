@@ -13,3 +13,13 @@ Built with **LangChain**, **FAISS**, and **Hugging Face Embeddings** for scalabl
 - 🤖 **Semantic Embedding** — Uses Hugging Face models for embedding generation.
 - ⚡ **FAISS Vector Indexing** — Enables fast and efficient vector-based retrieval.
 - 🧠 **LangChain Compatible** — Ready for advanced LLM workflows and RAG pipelines.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python 3.x**
+- **LangChain**
+- **FAISS** (Facebook AI Similarity Search)
+- **Hugging Face Transformers**
+- **XWiki Extracted Data (JSON format)**
