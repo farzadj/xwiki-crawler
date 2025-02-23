@@ -8,6 +8,10 @@ from selenium.common.exceptions import TimeoutException, StaleElementReferenceEx
 import time
 import json
 
+path_to_geckodriver = "path_to_your_geckodriver"
+username = "your_xwiki_username"
+password = "your_xwiki_password"
+
 def save_collected_pages(collected_pages, filename="collected_pages.json"):
     """Save extracted pages to a JSON file."""
     with open(filename, "w", encoding="utf-8") as f:
@@ -19,7 +23,7 @@ def save_collected_pages(collected_pages, filename="collected_pages.json"):
 # ------------------------------------------------------------------------------
 firefox_options = Options()
 firefox_options.add_argument("--headless")  # Run in headless mode
-service = Service("path to geckodriver")  # Adjust path
+service = Service(path_to_geckodriver)  # Adjust path
 driver = webdriver.Firefox(service=service, options=firefox_options)
 
 # ------------------------------------------------------------------------------
@@ -305,7 +309,7 @@ def sequential_crawl(start_url, start_from_index, end_index):
 # 3. Main Execution: Start from Sidebar and Extract Structured Data
 # ------------------------------------------------------------------------------
 try:
-    login_xwiki("username", "password")
+    login_xwiki(username, password)
     start_url = "https://xwiki.desy.de/xwiki/bin/view/XFELOp/"
     start_from_index = 1
     end_index = 1000
